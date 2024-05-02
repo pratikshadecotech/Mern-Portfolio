@@ -33,7 +33,7 @@ const handleToggle = ()=>{
 
           </div>
 
-          <div className='container'>
+          <div className=''>
             <Home/>
             
           </div>
