@@ -2,3 +2,44 @@
     padding-left: 130px;
     margin-top: 60px;
 }
+
+.techstack hr{
+    color: #03AED2;
+    width: 400px;
+    margin:10px auto;
+}
+
+.techstack h2{
+    font-weight: bold;
+    color: #03AED2;
+}
+
+
+.techstack .card{
+    cursor: pointer;
+    
+}
+
+
+.techstack .one-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+ 
+
+
+}
+
+
+.techstack .tech-icon{
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.techstack .one-card:hover{
+    background-color:#03AED2;
+    color: white;
+    border: none;
+    transition: 1s;
+}
