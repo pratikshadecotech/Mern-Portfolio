@@ -1,0 +1,78 @@
+.project{
+    padding-left: 130px;
+    margin-top: 60px;
+}
+
+
+.project hr{
+    color: #03AED2;
+    width: 400px;
+    margin:10px auto;
+}
+
+.project h2{
+    font-weight: bold;
+    color: #03AED2;
+}
+
+
+#ads{
+    margin:30px 0px 30px 0;
+}
+
+#ads .card-notify-badge{
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background: orange;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.card img{
+        height: 150px;
+        width: 100%;
+}
+
+
+.card-detail-badge{
+
+    background-color:orange;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px ;
+}
+
+.card-image-overly span{
+    margin-left: 10px;
+    display: inline-block  ;
+    color: white    ;
+
+}
+
+
+.ad-btn{
+    text-transform: uppercase;
+    width: 120px;
+    height: 35px;
+    background-color:#03AED2;
+    color:white;
+    border-radius:80px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+
+.card:hover{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
