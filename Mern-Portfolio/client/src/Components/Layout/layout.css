@@ -1,12 +1,12 @@
 .sidebar-section{
     display: flex;
-    background-color: #EC9CD3;
+    background-color: #161A30;
 
 }
 
 .sidebar{
     height: 100vh;
-    background-color: #0F2167;
+    background-color: #31304D;
     width: 90px;
     position: fixed;
 }
