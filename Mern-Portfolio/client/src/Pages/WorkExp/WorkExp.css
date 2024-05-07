@@ -1,0 +1,26 @@
+.work{
+    margin-left: 170px;
+    background-color:rgba(219, 208, 208, 0.473);
+}
+
+.work-exp hr{
+    color: #03AED2;
+    width: 400px;
+    margin:10px auto;
+}
+
+.work-exp h2{
+    font-weight: bold;
+    color: #03AED2;
+}
+.vertical-timeline-element-title{
+    color:#03AED2;
+}
+
+.vertical-timeline-element-subtitle{
+    color: gray;
+}
+
+.work-desc{
+    color:black;
+}
