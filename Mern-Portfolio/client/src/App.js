@@ -6,6 +6,8 @@ import Projects from './Pages/Projects/Projects'
 import Education from './Pages/Educations/Education'
 import WorkExp from './Pages/WorkExp/WorkExp'
 import Contact from './Pages/Contact/Contact'
+import ScrollToTop from "react-scroll-to-top";
+
 const App = () => {
   return (
     <>
@@ -16,7 +18,9 @@ const App = () => {
       <Projects />
       <WorkExp />
       <Contact />
-      
+      <ScrollToTop smooth 
+      color='#f29f67'
+      style={{backgroundColor:'#1e1e2c',borderRadius:'60px'}} />
 
     </>
   )

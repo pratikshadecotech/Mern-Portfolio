@@ -7,7 +7,7 @@ import { MdSchool } from "react-icons/md";
 const Education = () => {
   return (
    <>
-     <div className='container education'>
+     <div className='container education' id='education'>
 
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Top Recent Projects</h2>
         <hr/>
