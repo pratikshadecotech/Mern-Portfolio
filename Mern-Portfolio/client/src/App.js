@@ -5,7 +5,7 @@ import TechStack from './Pages/TechStack/TechStack'
 import Projects from './Pages/Projects/Projects'
 import Education from './Pages/Educations/Education'
 import WorkExp from './Pages/WorkExp/WorkExp'
-
+import Contact from './Pages/Contact/Contact'
 const App = () => {
   return (
     <>
@@ -15,6 +15,8 @@ const App = () => {
       <TechStack />
       <Projects />
       <WorkExp />
+      <Contact />
+      
 
     </>
   )
