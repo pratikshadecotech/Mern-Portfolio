@@ -1,11 +1,15 @@
 import React from 'react'
 import '../TechStack/techstack.css'
 import { TechstackList } from '../../utils/TechstackList'
+import RubberBand from 'react-reveal/RubberBand';
 
 const TechStack = () => {
   return (
     <>
         <div className='container techstack' id='tech-stack'>
+          <RubberBand>
+
+   
             <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Technologies Stack</h2>
             <hr/>
             <p className='pb-3 text-center'>
@@ -35,7 +39,7 @@ const TechStack = () => {
                 // <h1>{tech.name}</h1>
               ))}
             </div>
-
+            </RubberBand> 
         </div>
 
     </>

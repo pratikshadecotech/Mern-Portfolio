@@ -9,6 +9,8 @@ import { FcVideoProjector } from 'react-icons/fc';
 import { FcVoicePresentation } from 'react-icons/fc';
 import { FcBusinessContact} from 'react-icons/fc';
 import {Link} from "react-scroll"
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 const Menus = ({toggle}) => {
   return (
@@ -17,10 +19,13 @@ const Menus = ({toggle}) => {
     {toggle ? (
 
         <>
+        <Zoom>
             <div  className='navbar-profile-pic'>
                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uszAY8Dp7Ofnh6OnYaHnD6t0xCUYft-TXA&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uszAY8Dp7Ofnh6OnYaHnD6t0xCUYft-TXA&s' />
             </div>
-
+        </Zoom>
+            
+        <Fade left>
             <div className='nav-items'>
                 <div className='nav-item'>
                     <div className='nav-link'>
@@ -144,6 +149,7 @@ const Menus = ({toggle}) => {
                 
 
             </div>
+        </Fade>
         </>
     ) : (
 

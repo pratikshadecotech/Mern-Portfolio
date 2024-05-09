@@ -1,9 +1,11 @@
 import React from 'react'
 import "../About/about.css"
+import Jump from 'react-reveal/Jump';
 
 const About = () => {
   return (
     <>
+    <Jump>
       <div className='about' id="about">
         <div className='row'>
           <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img'>
@@ -22,6 +24,7 @@ The purpose of lorem ipsum is to create a natural looking block of text (sentenc
         </div>
 
       </div>
+      </Jump>
     </>
   )
 }
