@@ -22,7 +22,6 @@ const Contact = () => {
               </div>
 
               <div className='col-lg-6'>
-
                 <Rotate>
 
                 
