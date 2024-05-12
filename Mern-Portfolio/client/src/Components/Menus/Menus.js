@@ -11,6 +11,7 @@ import { FcBusinessContact} from 'react-icons/fc';
 import {Link} from "react-scroll"
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import Profile from '../../assets/images/profilepic.jpeg'
 
 const Menus = ({toggle}) => {
   return (
@@ -21,7 +22,7 @@ const Menus = ({toggle}) => {
         <>
         <Zoom>
             <div  className='navbar-profile-pic'>
-                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uszAY8Dp7Ofnh6OnYaHnD6t0xCUYft-TXA&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uszAY8Dp7Ofnh6OnYaHnD6t0xCUYft-TXA&s' />
+                <img src={Profile}/>
             </div>
         </Zoom>
             
@@ -118,7 +119,7 @@ const Menus = ({toggle}) => {
                     </div>
                 </div>
 
-                <div className='nav-item'>
+                {/* <div className='nav-item'>
                     <div className='nav-link'>
                         <Link to="testimonial"
                             spy={true}
@@ -130,7 +131,7 @@ const Menus = ({toggle}) => {
                         Testimonial
                         </Link>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='nav-item'>
                     <div className='nav-link'>
@@ -240,12 +241,12 @@ const Menus = ({toggle}) => {
                     </div>
                 </div>
 
-                <div className='nav-item'>
+                {/* <div className='nav-item'>
                     <div className='nav-link'>
                         <FcVoicePresentation title='Testimonial' />    
                         
                     </div>
-                </div>
+                </div> */}
 
                 <div className='nav-item'>
                     <div className='nav-link'>

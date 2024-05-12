@@ -9,7 +9,7 @@ const Education = () => {
    <>
      <div className='container education' id='education'>
 
-        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Top Recent Projects</h2>
+        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Education</h2>
         <hr/>
 
         <VerticalTimeline>
@@ -17,19 +17,19 @@ const Education = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'white', color: 'black' }}
                 contentArrowStyle={{ borderRight: '7px solid gray' }}
-                date="2011 - 2024"
+                date="2016 - 2019"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
                 icon={<MdSchool />}
             >
                 <h3 className="vertical-timeline-element-title">MCA</h3>
-                <h4 className="vertical-timeline-element-subtitle">CBD,Belapur</h4>
+                <h4 className="vertical-timeline-element-subtitle">Bharati Vidyapeeth,CBD,Belapur</h4>
                 
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'white', color: 'black' }}
                 contentArrowStyle={{ borderRight: '7px solid  gray' }}
-                date="2011 - 2022"
+                date="2013 - 2016"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
                 icon={<MdSchool />}
             >

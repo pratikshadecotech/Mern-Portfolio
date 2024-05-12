@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Projects/projects.css'
 import Spin from 'react-reveal/Spin';
+import ErpProject from '../../assets/images/erp_project_image.jpeg'; 
 
 const Projects = () => {
   return (
@@ -26,24 +27,23 @@ const Projects = () => {
                     <div className='card rounded'>
                         <div className='card-image'>
                             <span className='card-notify-badge'>Full Stack</span>
-                            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtSIKjK8fKoxA7xhW7ItXvYLSKUrmheeyKsw&s' alt='project1'></img>
+                            <img src={ErpProject} alt='project1'></img>
                         </div>
 
                         <div  className='card-image-overly mt-3'>
-                            <span className='card-detail-badge'>Node</span>
-                            <span className='card-detail-badge'>Express</span>
+                            <span className='card-detail-badge'>Php</span>
+                            <span className='card-detail-badge'>Laravel</span>
+                            <span className='card-detail-badge'>Mysql</span>
                             <span className='card-detail-badge'>React</span>
-                            <span className='card-detail-badge'>Mongodb</span>
-
                         </div>
 
                         <div className='card-body'>
                             <div className='ad-title'>
-                                <h5 className='text-uppercase'>Techinfo yt shopping app</h5>
+                                <h5 className='text-uppercase'>ERP Application</h5>
                             </div>
                         </div>
 
-                        <a className='ad-btn' href='#'>View</a>
+                        <a className='ad-btn' target="_blank" href='https://ahtuat.erpnhts.in/'>View</a>
 
                     </div>
                  

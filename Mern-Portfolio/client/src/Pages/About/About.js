@@ -1,6 +1,7 @@
 import React from 'react'
 import "../About/about.css"
 import Jump from 'react-reveal/Jump';
+import Profile from '../../assets/images/profilepic.jpeg'
 
 const About = () => {
   return (
@@ -9,18 +10,16 @@ const About = () => {
       <div className='about' id="about">
         <div className='row'>
           <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img'>
-          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhz1SSNcaEBhlNtUwQCe0x0gpLLySGyCFkkQ&s'  alt="profile-pic" />
+          <img src={Profile}  alt="profile-pic" />
 
           </div> 
           <div className='col-md-6 about-content'>
               <h1>About me</h1>
-              <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
-
-“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
-The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
-</p>
+              <p>
+              I am a skilled full-stack developer with experience in front-end and back-end technologies. I specialize in developing end-to-end applications that provide an optimal user experience With a passion for full-stack development, I am a proficient developer capable of designing and developing complex applications with expertise in Php, React, Mongodb and Node.js.
+              </p>
           </div> 
-
+  
         </div>
 
       </div>
