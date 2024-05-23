@@ -44,16 +44,16 @@ const Contact = () => {
                       
                   </div>
 
-                  <div className='row'>
+                  <div className='row fields'>
                     <input type='text' name='name' placeholder='Enter Your Name' className='mb-3' />
                   </div>
 
-                  <div className='row'>
+                  <div className='row fields'>
                     <input type='email' name='email' placeholder='Enter Your Email' className='mb-3' />
                   </div>
 
 
-                  <div className='row'>
+                  <div className='row fields'>
                     <textarea type='text' name='msg' placeholder='Enter Your Message' className='mb-3' />
                   </div>
 

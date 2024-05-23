@@ -24,9 +24,9 @@ const App = () => {
 
       
 
-        <div className='footer pb-3 ms-3'>
+        <div className='footer pb-3 pt-3 ms-3'>
           <Tada>
-            <h4 className='text-center'>Made with techinfo</h4>
+            <h4 className='text-center'>Made by Pratiksha</h4>
           </Tada>
         </div>
 

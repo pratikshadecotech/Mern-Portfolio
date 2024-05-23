@@ -29,3 +29,12 @@
 .sidebar-toggle{
     width: 230px;
 }
+
+
+/*========Mobile view=======*/
+
+@media(max-width: 600px){
+    .sidebar{
+        display: none;
+    }
+}
